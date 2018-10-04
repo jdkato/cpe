@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+folium = "*"
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+shapely = "*"
+six = "*"
+cython = "*"
+pyproj = {git = "https://github.com/jswhit/pyproj.git"}
+geopandas = "*"
+descartes = "*"
+fiona = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
